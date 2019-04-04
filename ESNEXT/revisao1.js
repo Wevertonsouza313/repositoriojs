@@ -1,0 +1,13 @@
+
+//template string
+const  produto = 'ipad'
+console.log(`${produto} é caro`)
+
+const   [l,e, ...tras] = "cod3r"
+console.log(l, e, tras)
+
+const [x, ,y] = [1,2,3]
+console.log(x,y)
+
+const {idade:i , nome} = {nome: 'Ana', idade: 9}
+console.log(i, nome)
